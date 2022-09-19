@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+}
+
+div {
+  border-radius: 10px;
+}
+
+/* -============================= HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+header div {
+  height: 40px;
+}
+
+.logo-container {
+  width: 15%;
+  display: flex;
+}
+
+.logo-container div {
+  margin: 0 10px;
+}
+
+.burger {
+  width: 30%;
+  margin-left: 10px;
+  background-color: #c4c4c4;
+}
+
+.logo {
+  width: 60%;
+  background-color: #c4c4c4;
+}
+
+.search-container {
+  width: 50%;
+}
+
+.account {
+  width: 10%;
+  margin-right: 10px;
+  background-color: #c4c4c4;
+}
+
+.search-container > input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* -============================== Main view */
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-view {
+  width: 70%;
+}
+
+.video {
+  width: 100%;
+  height: 60vh;
+  background-color: #c4c4c4;
+}
+
+.right-view {
+  width: 27%;
+}
+
+.comments {
+  width: 100%;
+  height: 60vh;
+  background-color: #c4c4c4;
+  margin-bottom: 10px;
+}
+
+.playlist {
+  width: 100%;
+  height: 60vh;
+  background-color: #c4c4c4;
+  margin-bottom: 20px;
+}
+
+.recommend-video {
+  width: 100%;
+  height: 60vh;
+  background-color: #c4c4c4;
+  margin-bottom: 10px;
+}
